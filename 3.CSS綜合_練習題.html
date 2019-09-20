@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>3.CSS綜合_練習題</title>
+	<link rel="stylesheet" href="css/3.CSS綜合_練習題.css">
+</head>
+<body>
+ <h1>CSS使用方式與sublime的emmet用法</h1>
+  <ol>
+  	<li>認識CSS設定文字語法</li>
+  	<li>emmet語法，常用快捷鍵</li>
+  	<li>如何在圖片加上線條</li>
+  </ol>
+ <blockquote><hr></blockquote><!--畫出橫線-->
+
+ <h2>使用hover當滑鼠移動時觸發條件</h2>
+ <p>在這堂課上面，你了解如何使用CSS設定在HTML標籤上，以及設定
+ 	<a class="color1" href="http://www.yahoo.com.tw">連結顏色</a>。</p>
+ <p>html內容：< a class="color1" href="http://www.yahoo.com.tw">連結顏色< /a>。 </p>
+ <blockquote> 
+ 	  <ul>
+ 	  	<li>class類別名稱，用來命名方便CSS呼叫相互對應使用。</li>
+ 	  	<li>a:hover{ color:blue; } 當滑鼠移動過去，變成藍色</li>
+ 	  </ul>
+</blockquote>
+
+<blockquote> <hr></blockquote>
+<h2>認識CSS設定文字語法</h2>
+<ol>
+	<li>文字顏色:color</li>
+	<li>文字大小:font-size</li>
+	<li>文字行距:line-height</li>
+	<li>文字字型:font-family</li>
+	<li>字型樣式:font-family:Arial</li>
+	<li>字型大小:font-size:18px</li>
+	<li>字行間距:line-height:1.5</li>
+	<li>字靠齊方向:text-align: left</li>
+	<li>首行縮排(一字元18px):text-indent: 36px</li>
+	<li>加入下底線:text-decoration: underline</li>
+	<li>畫大框框:border:1px solid black</li>
+	<li>刪除線用法:text-decoration: line-through</li>
+	<li>當滑鼠點下時動作:a:active</li>
+	<li>當滑鼠滑入時動作:a:hover</li>
+</ol>
+
+<blockquote> <hr></blockquote>
+<h2>sublime的emmet語法常用功能</h2>
+安裝方式<br>
+<ol>
+	<li><a href="https://packagecontrol.io/">sublime package套件安裝</a></li>
+	<li>在sublime開啟 View>Hide Console</li>
+	<li>將SUBLIME TEXT 文字複製貼上，並ENTER執行即完成安裝</li>
+	<li>control+shift+p開啟執行</li>
+	<li>再安裝emmet套件完成安裝</li>
+</ol>
+常用emmet功能鍵<br>
+<ul>
+	<li>輸入h1再按Tab自動帶出完整標籤</li>
+	<li>輸入link:css再按tab，帶出連結CSS語法</li>
+	<li>輸入ul>li*4{text}再按tab，帶出ul且有4個li的清單</li>
+	<li>輸入!再按tab，自動帶入html基本元件</li>
+	<li>輸入lorem再按tab，跑出一堆文字，用來檢視是否跑版的內容產出方式</li>
+	<li class="sty1">text-decoration: line-through刪除線的用法</li>
+</ul>
+
+<blockquote> <hr></blockquote>
+<h2>在圖片上加上logo的線條</h2>
+<img src="images/img1.jpg">
+<br>
+<p>
+說明：<br>
+<blockquote>
+	1.img:hover{ border:4px solid pink; }
+	，當滑鼠滑入時border變成粉紅色<br>
+	2.border-bottom:4px solid red;，下方劃出紅色底線<br>
+	3.border-left:4px solid red;，左方畫出紅色線
+</blockquote>
+</p>
+
+<blockquote> <hr></blockquote>
+<h2>css reset</h2>
+<p>css在各瀏覽器都有固定的格式，可以再CSS樣式中加入<a href="https://meyerweb.com/eric/tools/css/reset/">CSS Reset</a>，就可以將預設值通通拿掉</p>
+
+</body>
+</html>

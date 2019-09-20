@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>12.表格與表單設計技巧</title>
+	<link rel="stylesheet" href="css\12.表格與表單設計技巧.css">
+</head>
+<body>
+	<table class="price">
+		<tr>
+			<th>標題一</th>
+			<th>標題二</th>
+			<th>標題三</th>
+		</tr>
+		<tr>
+			<td>內容1</td>
+			<td>內容2</td>
+			<td>內容3</td>
+		</tr>
+	</table>
+	<form action="#" class="form1">
+		<label for="mail">電子郵件：</label>
+		<input id="mail" type="text" placeholder="請輸入電子郵件" name="mail"><p>
+		<!--placeholder用來預設text的內容-->
+
+		<label for="person">請輸入姓名：</label>
+		<input id="person"type="text" placeholder="請輸入姓名"name="person"><p>
+		
+		<label for="">性別：</label>
+		<input type="radio" name="sex" value="male">男生
+		<input type="radio" name="sex" value="women">女生<p>
+		<label for="">興趣：</label>
+		<input type="checkbox" value="movie" name="hobby">看電影
+		<input type="checkbox" value="music" name="hobby">聽音樂
+		<input type="checkbox" value="comic" name="hobby">看漫畫<p>
+		
+		<label for="birth">生日：</label>
+		<select name="birth" id="birth">
+			<option value="1900">1900</option>
+			<option value="1901">1901</option>
+		</select><p>
+
+		<label for="content">內容：</label><br>
+		<textarea name="content" id="content" cols="30" rows="10">
+
+		</textarea><p>
+
+		<input type="submit" value="送出">
+	</form>
+	<input type="button" class="btn" value="按鈕">
+
+	<div class="box">
+		hello
+	</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.box{
+	width: 1000px;
+	height:300px;
+	background-image: url(../images/images/使用html做網站-_08.png);
+	background-repeat:no-repeat;
+	background-color: #009872;
+	background-position:right bottom;/*移動背景圖位置：background-position:right bottom*/
+	/*背景只顯示部分：background-repeat: repeat-x; no-repeat;(不repeat)(主要是用小切片，讓K數降低)
+與背景圖混用：background-color:*/
+	/*
+	顯示背景圖：background-image: url(../images/logo.png)
+	設置水平重複：background-repeat:no-repeat;
+	設置背景顏色：background-color: #000;
+	設置背景圖片位置：background-position:center;
+	*/
+}	
+
+.box h2{
+	color:white;
+	font-size:36px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.box2{
+	width: 1000px;
+	height: 300px;
+	background: linear-gradient(to left,blue,red);
+	/*背景顏色圖案由左至右呈現*/
+}
+
+.box3{
+	width: 200px;
+	height: 200px;
+	background: green;
+	box-shadow:10px 10px 20px black;/*陰影效果使用方式*/
+	margin:20px;
+}
+
+.header h1{
+	float:left;
+}
+
+.header	h1 a{
+	background-image: url(../images/beats.png);
+	background-repeat: no-repeat;
+	width: 100px;
+	height:200px;
+	display: block;
+	text-indent:101%;
+	overflow:hidden;
+	white-space: nowrap;
+
+	/*
+	圖片取代文字技巧(下列三行固定模式)
+	首行縮排：text-indent:101%;
+	超出div距離就隱藏起來：overflow:hidden;
+	都在第一排上面(都不換行)：white-space: nowrap;
+	*/
+}

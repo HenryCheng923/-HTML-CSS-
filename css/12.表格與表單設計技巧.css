@@ -1,0 +1,52 @@
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.price th,.price td{
+	border-top:1px solid #000;
+	border-bottom: :1px solid #000;
+}
+
+.price th{
+	padding:10px;
+	background: green;
+	color:white;
+}
+
+.price td{
+	padding:10px;
+}
+
+.form1 input{
+	border:3px solid blue;
+	color:red;
+	border-radius:20px;
+	padding:10px;
+	background-color: pink;
+}
+
+.btn{
+	background: green;
+	color:#fff;
+	border:1px solid red;
+	border-radius:5px;
+	padding:10px 30px;
+	cursor:pointer;
+}
+
+.btn:hover{
+	background: blue;
+}
+
+.box{
+	width: 150px;
+	height: 150px;
+	background: black;
+	border-radius:50px 0 50px 0 ;/*繪製圓角方式*/
+	border:10px solid blue;
+	text-align:center;
+	color:white;
+	line-height: 150px;
+	font-size:50px;
+}

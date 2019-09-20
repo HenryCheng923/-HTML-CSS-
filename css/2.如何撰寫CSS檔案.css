@@ -1,0 +1,87 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*上方為css reset的功能，先將各大瀏覽器預設的CSS樣式先清除掉*/
+
+h1{
+	color:blue; /*文字的顏色*/
+	font-size:40px;/*字體大小設定*/
+	border:1px solid black;/*繪出框線並設定為黑色*/
+}
+
+img{
+	border-bottom: 5px solid #000;/*新增線條在底部，顏色為黑色*/
+}
+
+.style1{
+	color:blue;
+}
+
+.style2{
+	color:pink;
+	font-size:20px;/*設定calss style2的字體顏色為粉紅色，字體大小為20px*/
+}
+
+a{
+	font-size:30px;
+	border-bottom:5px solid #000;
+}
+
+a:hover{
+	color:gray;
+	border-bottom:5px solid red;
+}/*當滑鼠滑入a執行事件，字體顏色為灰色，底線為紅色*/
+
+a:active{
+	color:yellow;
+}/*當滑鼠滑入時，字體顏色轉為黃色*/
+
+p{/*設定p的CSS樣式*/
+	font-family:Arial;/*設定字體*/
+	font-size:18px;/*設定字體大小，預設為16px*/
+	line-height:2;/*設定字體間的行距*/
+	text-align: left;/*文字靠齊方式*/
+	text-indent: 36px;/*文字縮排，一格為18px*/
+	text-decoration: underline;/*文字樣式為底線*/
+}

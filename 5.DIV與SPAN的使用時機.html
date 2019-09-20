@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css\5.DIV與SPAN的使用時機.css">
+</head>
+<body>
+	<div>網頁元素，div是區塊元素</div>
+	<span>網頁元素二，span是行內元素</span>
+
+	<div class="style1">
+		<h2>標題1</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit id quaerat, minus totam, obcaecati est sed amet nobis deserunt dolor placeat sapiente rem vitae quae eum, ipsam tempora autem. Delectus!</p>
+	</div>
+
+	<div class="style2">
+		<h2>標題<span>2</span></h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, quod repudiandae nostrum placeat voluptas cum, aut magnam eos voluptate sunt, suscipit incidunt nam numquam dicta nemo fuga consequatur quia provident.</p>
+	</div>
+
+
+	<h2>使用margin、padding來推擠距離</h2>
+	<div class="box">
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci est ullam voluptatum aperiam excepturi a quae, dignissimos sapiente tempora vel asperiores illum autem nobis harum nesciunt dolores soluta quidem blanditiis?
+		</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est non ullam aliquid magnam obcaecati consectetur veritatis assumenda quos accusantium, eaque natus, sit repellendus aspernatur, temporibus laboriosam maiores perspiciatis quasi, harum.</p>
+	</div>
+
+	<h2>box model</h2>
+	<div class="box2">
+		<p>margin不會影響實際長度，只有padding、border會影響</p>
+	</div>
+
+	<h2>使用margin:auto讓版型置中</h2>
+	<div class="wrap">
+	  <div class="header"></div>
+	  <div class="content"></div>
+	  <div class="footer"></div>
+	</div>
+
+	<p>wrap使用了margin:auto，那div裡面所設定的寬度就會被margin所設定的寬度給大小所限制</p>
+	<p>margin-left margin-right auto用來元素水平置中，裡面子元素就被margin限制住，所以裡面的width就不用一一設定寬度</p>
+</body>
+</html>
+

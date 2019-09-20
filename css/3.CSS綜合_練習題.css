@@ -1,0 +1,37 @@
+h1{
+	color:blue;
+}
+
+h2{
+	border-bottom:4px solid red;
+	border-left:4px solid red;/*h2標題左邊畫框線*/
+}
+
+p{
+	text-indent:36px;/*文字首行縮排*/
+}
+
+.color1{/*將color1的字體顏色設定為紅色*/
+	color:red;
+}
+
+a:hover{/*當滑鼠滑入時，字體顏色變成藍色*/
+	color:blue;
+}
+
+li{
+	line-height:1.5;/*將li項目編號，自行間距設定為1.5行距*/
+}
+
+.sty1{
+	text-decoration: line-through;/*刪除線的使用方式*/
+	color:red;
+}
+
+img{
+	border:4px solid gray;	
+}
+
+img:hover{
+	border:4px solid pink;/*當滑鼠滑入時，框線變成粉紅色*/
+}

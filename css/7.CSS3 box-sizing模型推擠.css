@@ -1,0 +1,16 @@
+*{/*直接套用box-sizing到所有元素上*/
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box; 
+}
+.style{
+	width: 150px;
+	height: 150px;
+	background: #000;
+	padding: 10px
+	box-sizing:border-box;/*讓寬度都固定150px，不受到padding或其他影響*/
+
+
+
+	
+}
